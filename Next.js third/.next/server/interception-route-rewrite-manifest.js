@@ -1,1 +1,0 @@
-self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST="[{\"source\":\"/news/:slug/image\",\"destination\":\"/news/:slug/(.)image\",\"has\":[{\"type\":\"header\",\"key\":\"Next-Url\",\"value\":\"\\\\/news(?:\\\\/([^\\\\/#\\\\?]+?))(?:\\\\/(.*))?[\\\\/#\\\\?]?\"}]}]"
