@@ -1,18 +1,23 @@
-import { formatDate } from '@/lib/format';
-import LikeButton from './like-icon';
+import { formatDate } from "@/lib/format";
+import LikeButton from "./like-icon";
+import Image from "next/image";
 
 function Post({ post }) {
   return (
     <article className="post">
       <div className="post-image">
-        <img src={post.image} alt={post.title} />
+        {post.image ? (
+          <Image src={post.image} alt={post.title} width={500} height={300} />
+        ) : (
+          <p>No Image Available</p>
+        )}
       </div>
       <div className="post-content">
         <header>
           <div>
             <h2>{post.title}</h2>
             <p>
-              Shared by {post.userFirstName} on{' '}
+              Shared by {post.userFirstName} on{" "}
               <time dateTime={post.createdAt}>
                 {formatDate(post.createdAt)}
               </time>
