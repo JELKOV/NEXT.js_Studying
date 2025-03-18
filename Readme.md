@@ -92,9 +92,9 @@
 - 현재 `App Router`가 트렌드이며, 신규 프로젝트에서는 적극적으로 사용 권장
 
 
-## 8. 정리한 Notion Page
+## 8. 정리 - Notion Page
 ### 링크
-- (Link)[https://jelkov-developer.notion.site/NEXT-js-195c23f3073480d9aa9ff8f707c19a0a?pvs=4]
+- [Notion 정리 페이지](https://jelkov-developer.notion.site/NEXT-js-195c23f3073480d9aa9ff8f707c19a0a?pvs=4)
 ---
 
 
