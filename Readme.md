@@ -84,15 +84,7 @@
 ├── package.json
 ```
 
-## 7. Next.js 최신 트렌드
-### App Router vs Pages Router
-- `Pages Router`는 기존 Next.js 방식 (`pages/` 폴더 사용)
-- `App Router`는 최신 방식 (`app/` 폴더 사용)으로, `React Server Components` 활용 가능
-- 서버 컴포넌트와 클라이언트 컴포넌트를 혼합하여 사용
-- 현재 `App Router`가 트렌드이며, 신규 프로젝트에서는 적극적으로 사용 권장
-
-
-## 8. 정리 - Notion Page
+## 7. Next.js 정리 - Notion Page
 ### 링크
 - [Notion 정리 페이지](https://jelkov-developer.notion.site/NEXT-js-195c23f3073480d9aa9ff8f707c19a0a?pvs=4)
 ---
