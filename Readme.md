@@ -1,4 +1,4 @@
-# Next.js 학습 정리 (README.md)
+# Next.js APP Routing 학습 정리 (README.md)
 
 ## 1. Next.js 기본 개념
 ### 파일 기반 라우팅과 서버 사이드 렌더링 이해
